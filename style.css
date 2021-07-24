@@ -104,4 +104,12 @@ body{
     font-size: 24px;
 }
 
-  
+.text-help{
+    text-align: center;
+    margin: 100px;
+}
+
+
+.profile-image{
+    border-radius: 50%; 
+}
