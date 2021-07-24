@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <script src="jquery-3.3.1.min.js"></script></div>
 </head>
 <body>
     <header class="head">
@@ -40,7 +39,21 @@
 
         <div class="profile-main">
             <div class="profile-class">
-                <img class="profile-image" src="image/icon.png">
+                <img class="profile-image" src="image/icon.png" name="sushi">
+
+                    <script type="text/javascript">
+                    img = new Array("image/icon1.png","image/icon2.png","image/icon3.png");
+                    count = -1; //*2
+                    imgTimer();
+
+                    function imgTimer() {
+	                count++;
+	                if (count == img.length) count = 0;
+	                document.sushi.src = img[count];
+
+	                setTimeout("imgTimer()",3000);
+                }
+                </script>
             </div>
 
             <div class="profile-class">
