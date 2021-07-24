@@ -21,18 +21,20 @@ body{
   .sub-text{
       font-size: 2rem;
       text-align: center;
+      margin-bottom: 200px;
   }
 
   .profile-main{
       display:grid;
       margin:auto 5rem;
-      grid-template-columns: 3fr 2fr;
+      grid-template-columns: 1fr 1fr;
       grid-template-rows: 400px;
       gap: 100px;
+      margin-bottom: 200px;
   }
 
   .profile-class{
-      font-size:20px;
+      font-size:30px;
       margin-top: 3rem;
       margin-left: 3rem;
   }
@@ -59,6 +61,26 @@ body{
 
   .skill-text{
     font-size: 15px;
+}
+
+.work-main{
+    display:grid;
+    margin:auto 5em;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px;
+    gap: 100px;
+}
+
+.work-class{
+    text-align: center;
+}
+
+.work-class img{
+    width: 200px;
+}
+
+.work-text{
+    font-size: 24px;
 }
 
   
