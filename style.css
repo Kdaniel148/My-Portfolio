@@ -20,4 +20,18 @@ body{
 
   .h3{
       font-size: 2rem;
+      text-align: center;
+  }
+
+  .profile-main{
+      display:grid;
+      margin:auto 5rem;
+      grid-template-columns: 3fr 2fr;
+      grid-template-rows: 400px;
+      gap: 100px;
+  }
+
+  .profile-class{
+      text-align: center;
+      font-size:2rem;
   }
