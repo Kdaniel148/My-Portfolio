@@ -1,0 +1,36 @@
+body{
+    background-color: cadetblue;
+}
+
+.back{
+    font-size: 20px;
+    text-align: end;
+    color: white;
+}
+
+.title{
+    font-size: 5rem;
+    text-align: center;
+}
+
+.contents{
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 200px;
+}
+.work-main{
+    display:grid;
+    margin:auto 5em;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 300px;
+    gap: 250px;
+}
+
+.work-main img{
+    width: 25rem;
+    height: 21rem;
+}
+
+.work-sub{
+    text-align: center;
+}
