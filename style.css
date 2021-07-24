@@ -40,3 +40,25 @@ body{
   .profile-class img{
       width: 300px;
   }
+
+  .skill-main{
+    display:grid;
+    margin:auto 4rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px;
+    gap: 100px;
+  }
+
+  .skill-class{
+      text-align: center;
+  }
+
+  .skill-name{
+      font-size: 20px;
+  }
+
+  .skill-text{
+    font-size: 15px;
+}
+
+  
