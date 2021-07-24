@@ -9,10 +9,29 @@ body{
       text-align: center;
   }
 
-  h1{
+  head{
       font-size:5rem;
       margin-bottom: 200px;
   }
+
+  .title{
+      font-size:5rem;
+  }
+
+  .head-main{
+    display:grid;
+    margin:auto 5rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 80px;
+    gap: 100px;
+    background-color: aliceblue;
+  }
+
+  .head-sub{
+      font-size: 20px;
+  }
+
+
 
   .midasi{
       font-size:4rem;
@@ -67,7 +86,7 @@ body{
 .work-main{
     display:grid;
     margin:auto 5em;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 300px;
     gap: 100px;
 }
