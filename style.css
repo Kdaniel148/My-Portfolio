@@ -14,11 +14,11 @@ body{
   }
 
   .midasi{
-      font-size:3rem;
+      font-size:4rem;
       text-align: center;
   }
 
-  .h3{
+  .sub-text{
       font-size: 2rem;
       text-align: center;
   }
@@ -32,6 +32,11 @@ body{
   }
 
   .profile-class{
-      text-align: center;
-      font-size:2rem;
+      font-size:20px;
+      margin-top: 3rem;
+      margin-left: 3rem;
+  }
+
+  .profile-class img{
+      width: 300px;
   }
