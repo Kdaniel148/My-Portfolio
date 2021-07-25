@@ -1,8 +1,12 @@
 body{
     margin: 0;
-    color: whitesmoke;
-    background-image: url(image/a.png);
+    color: rgb(227, 231, 0);
+    background-image: url(image/back.jpg);
     font-family: serif;
+  }
+
+  .back{
+      color: rgb(185, 185, 0);
   }
 
   .head{
@@ -28,7 +32,7 @@ body{
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 80px;
     gap: 100px;
-    background-color: rgb(98, 142, 180);
+    background-color: rgb(14, 14, 56);
   }
 
   .head-sub{
@@ -40,6 +44,7 @@ body{
   .midasi{
       font-size:4rem;
       text-align: center;
+      background-color: rgb(16, 36, 145);
   }
 
   .sub-text{
@@ -106,7 +111,7 @@ body{
 }
 
 .work-text{
-    font-size: 24px;
+    font-size: 26px;
 }
 
 .text-help{
