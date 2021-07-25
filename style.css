@@ -1,7 +1,7 @@
 body{
     margin: 0;
     color: whitesmoke;
-    background-color:rgb(121, 86, 34);
+    background-image: url(image/a.png);
     font-family: serif;
   }
 
@@ -16,7 +16,7 @@ body{
 
   .title{
       font-size:5rem;
-      background-color: blue;
+      background-color: rgb(26, 26, 110);
       margin-top: 10rem;
       margin-bottom: 10rem;
   }
@@ -28,7 +28,7 @@ body{
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 80px;
     gap: 100px;
-    background-color: aliceblue;
+    background-color: rgb(98, 142, 180);
   }
 
   .head-sub{
@@ -80,11 +80,11 @@ body{
   }
 
   .skill-name{
-      font-size: 20px;
+      font-size: 30px;
   }
 
   .skill-text{
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .work-main{
