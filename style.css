@@ -16,7 +16,11 @@ body{
 
   .title{
       font-size:5rem;
+      background-color: blue;
+      margin-top: 10rem;
+      margin-bottom: 10rem;
   }
+
 
   .head-main{
     display:grid;
@@ -93,6 +97,7 @@ body{
 
 .work-class{
     text-align: center;
+    margin-bottom: 100px;
 }
 
 .work-class img{
@@ -113,3 +118,4 @@ body{
 .profile-image{
     border-radius: 50%; 
 }
+
