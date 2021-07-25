@@ -1,11 +1,12 @@
 body{
-    background-color: cadetblue;
+    background-image: url(image/work6-back.png);
+    color: rgb(106, 36, 128);
 }
 
 .back{
     font-size: 20px;
     text-align: end;
-    color: white;
+    color: rgb(94, 94, 94);
 }
 
 .title{
